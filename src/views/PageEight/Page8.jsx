@@ -1,8 +1,8 @@
 import React from "react";
 import Card1 from "../../assets/Page8card1image.png";
-// import Card2 from "../../assets/Page8card2image.png"
 import Card2 from "../../assets/page8card2image.png";
-import Card3 from "../../assets/Page8card3image.png";
+// import Card3 from "../../assets/Page8card3image.png";
+import Card3 from "../../assets/page8card3image.png";
 import { HiArrowLongRight } from "react-icons/hi2";
 
 const Page8 = () => {
