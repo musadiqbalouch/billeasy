@@ -2,6 +2,7 @@ import React from "react";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import img from "../../assets/pageonebackgroundimage.jpg";
 // import imgone from "../../assets/ipadPro.png"
+import headerlogo from "../../assets/Billeasylogo.png";
 import imgone from "../../assets/iPadPro.png";
 import imgtwo from "../../assets/iphone.png";
 import { HiMiniArrowUturnRight } from "react-icons/hi2";
@@ -16,10 +17,7 @@ const Header = () => {
         <div className="flex flex-row  justify-between h-20 w-100% ">
           <div className="">
             {" "}
-            <img
-              className="h-15 w-40 ml-30 mt-2"
-              src="src/assets/Billeasylogo.png"
-            />
+            <img className="h-15 w-40 ml-30 mt-2" src={headerlogo} />
           </div>
           <div className="flex flex-row  h-7 w-53 bg-blue-600 rounded-xl mr-30 mt-5 align-centre justify-center text-center ">
             {" "}
