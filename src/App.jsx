@@ -18,7 +18,7 @@ function App() {
     <>
       <div className='m-0'>
        <Header />
-       <Page2 />
+       {/* <Page2 />
        <Page3/>
        <Page4/>
        <Page5/>
@@ -27,7 +27,7 @@ function App() {
        <Page8/>
        <Page9/>
        <Page10 />
-       <Footer/>
+       <Footer/> */}
       </div>
     </>
   )
