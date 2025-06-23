@@ -21,7 +21,7 @@ const Header = () => {
                 <div className='flex flex-col h-40 w-160 ml-25 mt-10'>
                     <h2 className='text-5xl text-black font-semibold'>Construction <span className='text-blue-600'>Simplified.</span></h2>
                     <h3 className='text-3xl font-semibold'><span className='text-blue-600'>Stop Drowning</span> in Paperwork. Build <br /> More, <span className='text-blue-600'>Manage Less.</span> </h3>
-                    <p className='text-base font-medium'> is the smart, intuitive platform built specifically for construction professionals to <br />streamline operations, boost profitability, and reclaim their time. Get early access to the <br /> Beta and transform your business.</p>
+                    <p className='text-base font-medium'>Billeasy is the smart, intuitive platform built specifically for construction professionals to <br />streamline operations, boost profitability, and reclaim their time. Get early access to the <br /> Beta and transform your business.</p>
                     <div className=' flex flex-row h-10 w-38 mt-2 align-centre justify-center text-center bg-blue-600 rounded-xl '><h3 className='text-lg font-normal   text-white '>Early access</h3>  < FaLongArrowAltRight className='text-white ml-2 mt-1.5 h-5 w-5' /></div>
                     <div className='flex flex-row -ml-25 w-130'>
                         <img className="h-70  mt-15 w-140 object-cover relative left-20 " src={imgone} />
