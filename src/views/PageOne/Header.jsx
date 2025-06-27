@@ -2,6 +2,7 @@
 import React from 'react'
 import { FaLongArrowAltRight } from "react-icons/fa";
 import img from "../../assets/pageonebackgroundimage.jpg"
+import logo from "../../assets/Billeasylogo.png"
 // import imgone from "../../assets/ipadPro.png"
 import imgone from "../../assets/iPadPro.png"
 import imgtwo from "../../assets/iphone.png"
@@ -14,7 +15,7 @@ const Header = () => {
         >
             <div>
                 <div className='flex flex-row  justify-between h-20 sm:h-23 lg:h-18 lg:ml-10'>
-                    <div className=''>  <img className="h-8 w-20 ml-10 mt-2 sm:h-13 sm:w-33 md:h-15 md:w-38  lg:h-18 lg:w-40 lg:mt-1 object-contain xl:h-22 xl:w-47" src="src/assets/Billeasylogo.png" /></div>
+                    <div className=''>  <img className="h-8 w-20 ml-10 mt-2 sm:h-13 sm:w-33 md:h-15 md:w-38  lg:h-18 lg:w-40 lg:mt-1 object-contain xl:h-22 xl:w-47" src={logo} /></div>
                     <div className="flex-row gap-4 h-7 text-xs  p-1 bg-blue-600 rounded-xl me-2  mt-2 mr-3 align-centre justify-center text-center  sm:h-8  sm:p-1 
                     md:h-10 md:p-2 lg:h-10 lg:p-2 lg:mt-5 items-center flex xl:mr-5 xl:mt-7 ">  <h3 className='text-white text-xs font-normal md:text-base lg:text-lg text-nowrap'>Request Early Access</h3>
                         <FaLongArrowAltRight className='text-white   h-5 w-5 text-xs lg:-ml-2 lg:mt-1' /></div></div>
