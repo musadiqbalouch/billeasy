@@ -2,7 +2,8 @@
 import React from 'react'
 import { FaLongArrowAltRight } from "react-icons/fa";
 import img from "../../assets/pageonebackgroundimage.jpg"
-import imgone from "../../assets/ipadPro.png"
+// import imgone from "../../assets/ipadPro.png"
+import imgone from "../../assets/iPadPro.png"
 import imgtwo from "../../assets/iphone.png"
 import { HiMiniArrowUturnRight } from "react-icons/hi2";
 
