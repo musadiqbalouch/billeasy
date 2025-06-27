@@ -16,18 +16,18 @@ function App() {
 
   return (
     <>
-      <div className='m-0'>
-       <Header />
-       {/* <Page2 />
-       <Page3/>
-       <Page4/>
-       <Page5/>
-       <Page6/>
-       <Page7/>
-       <Page8/>
-       <Page9/>
-       <Page10 />
-       <Footer/> */}
+      <div className='m-0 '>
+        <Header />
+        <Page2 />
+        <Page3 />
+        <Page4 />
+        <Page5 />
+        <Page6 />
+        <Page7 />
+        <Page8 />
+        <Page9 />
+        <Page10 />
+        <Footer />
       </div>
     </>
   )
