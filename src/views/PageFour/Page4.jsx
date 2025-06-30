@@ -11,7 +11,7 @@ const Page4 = () => {
   return (
     <div className='h-[100%] w-full'>
       <div className='container h-full  bg-no-repeat bg-center object-cover items-center justify-center
-       mt-10 mb-10 m-auto rounded-2xl md:h-220 md:m-auto lg:h-160 lg:w-5xl    xl:h-160 xl:w-fit  xl:mt-30  xl:m-auto  ' style={{ backgroundImage: `url(${image})` }}>
+       mt-10 mb-10 m-auto rounded-2xl md:h-220 md:m-auto lg:h-160 lg:w5xl    xl:h-160 xl:w-fit  xl:mt-30  xl:m-auto  ' style={{ backgroundImage: `url(${image})` }}>
         <div className='items-center justify-center text-center p-5 xl:p-10 '>
           <h2 className='text-base w-60 m-auto text-white font-semibold sm:text-lg md:w-90 md:text-2xl md:mt-15 lg:w-120 lg:text-4xl xl:w-160 xl:m-auto xl:text-5xl  font-semibold/7 '>Work. Bill. Collaborate. Done.</h2>
           <p className='text-white text-xs m-3 sm:text-sm md:text-base md:mb-5  xl:m-3 '>Bill Easy connects the dots between contracts, estimates, invoicing, and teamwork — giving you control, clarity, and confidence</p>

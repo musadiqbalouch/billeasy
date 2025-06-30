@@ -27,7 +27,7 @@ const Page8 = () => {
     },
   ];
   return (
-    <div className="  container w-full items-center justify-center text-center m-auto  xl:h-screen xl:w-full lg:pt-10 ">
+    <div className="  container w-full items-center justify-center text-center m-auto   xl:w-full lg:pt-10 ">
       <h2 className=" text-base  font-semibold md:text-2xl lg:text-4xl xl:text-5xl xl:font-semibold">
         BillEasy <span className="text-[rgba(12,113,224,1)]"> Extended </span>{" "}
         Capabilities

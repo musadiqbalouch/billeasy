@@ -9,12 +9,10 @@ const Page10 = () => {
     , "Early access users will receive 40% discounted for life, support & exclusive training sessions.", " Don't wait to streamline your operations and boost your bottom line "
   ]
   return (
-    <div className=' container  w-full bg-no-repeat bg-center bg-cover items-center justify-center mx-auto p-5 lg:p-0 overflow-hidden'
-
-      style={{ backgroundImage: `url(${img})  ` }}
-
+    <div className=' container relative  w-full bg-no-repeat bg-center bg-cover items-center justify-center mx-auto p-5 lg:p-0 overflow-hidden'
     >
-      <div className='w-full flex flex-col lg:flex-row lg:mt-8 xl:flex  xl:flex-row mt-10  lg:p-10 '>
+      <div style={{ backgroundImage: `url(${img}) ` }} className='absolute opacity-50 inset-0 '></div>
+      <div className='z-50  w-full flex flex-col lg:flex-row lg:mt-8 xl:flex  xl:flex-row mt-10  lg:p-10 '>
         <div className=' xl:w-[60%]  items-center justify-center m-auto lg:h-90 lg:w190   xl:h-90 xl:w- xl:pl10  xl:ml10'>
           <h2 className='text-black text-lg font-semibold mb-9 m-auto text-center sm:text-xl md:text-2xl lg:text-2xl/10 lg:mb-6 lg:text-start xl:text-4xl/10 xl:font-semibold xl:mb-9'>Why Join the <span className='text-[rgba(12,113,224,1)]'>Beta / Get Early Access?</span> </h2>
           <ul className=' flex flex-col gap-3 list-disc pl-5 '>
@@ -32,7 +30,7 @@ const Page10 = () => {
            md:text-sm md:p-1.5 md:h-8 md:w-40 lg:h-8 lg:w-40   xl:h-9  xl:w-42 xl:p-1 xl:mt-1 xl:mx-auto  xl:text-base  xl:ml-5  xl:font-sm items-cent  ' >Secure Your Spot <HiArrowLongRight className='text-base md:mt-1 ml-1' /></button>
         </div>
         <div className='xl:w '>
-          <img className='object-cover h5 w-full relative bottom-5 items-center justify-center sm:h-100 sm:w-150 
+          <img className='object-cover w-full relative bottom-5 items-center justify-center sm:h-100 sm:w-150 
           md:h-100 md:w-140   lg:h-130 lg:w-160 lg:bottom-10 lg:top-10 lg:mr-10 xl:right-20 xl:mb-20  xl:relative ' src={image} />
         </div>
       </div>
