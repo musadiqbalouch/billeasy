@@ -10,7 +10,7 @@ const Page4 = () => {
   ]
   return (
     <div className='h-[100%] w-full'>
-      <div className='container h-fit  bg-no-repeat bg-center object-cover items-center justify-center
+      <div className='container h-full  bg-no-repeat bg-center object-cover items-center justify-center
        mt-10 mb-10 m-auto rounded-2xl md:h-220 md:m-auto lg:h-160 lg:w-5xl    xl:h-160 xl:w-fit  xl:mt-30  xl:m-auto  ' style={{ backgroundImage: `url(${image})` }}>
         <div className='items-center justify-center text-center p-5 xl:p-10 '>
           <h2 className='text-base w-60 m-auto text-white font-semibold sm:text-lg md:w-90 md:text-2xl md:mt-15 lg:w-120 lg:text-4xl xl:w-160 xl:m-auto xl:text-5xl  font-semibold/7 '>Work. Bill. Collaborate. Done.</h2>
@@ -24,7 +24,7 @@ const Page4 = () => {
             <button className='text-xs  h-fit w-full p-2 m-auto flex flex-nowrap bg-white rounded-2xl text-[rgba(12,113,224,1)] border-[rgba(12,113,224,1)] md:text-sm lg:text-sm lg:h-7 lg:w-70 lg:p-1 xl:text-sm  xl:h-7 xl:w-70 xl:p-1 '>Team Collaboration & Role-Based Access</button>
           </div>
         </div>
-        <div className='flex flex-col h-140 w-1/2 m-auto items-center justify-center text-center sm:w-150 
+        <div className='flex flex-col  w-1/2 m-auto items-center justify-center text-center sm:w-150 
         md:h-160 lg:flex lg:flex-row lg:h-100 lg:w-fit xl:flex xl:flex-row xl:h-100 xl:w-270  '>
           <div className='h-90 w-60  sm:w-130 md:h-80 lg:h-90 lg:w-160 lg:pl-10 xl:h-90 xl:w-550 xl:pl-10'>
             <h2 className='text-[rgba(255,255,255,1)] text-base font-semibold sm:text-lg sm:text-start md:text-2xl lg:text-4xl xl:text-4xl/10 '>Automated Invoice Management</h2>
@@ -39,7 +39,7 @@ const Page4 = () => {
                 </div>
               ))}
             </ul>
-            <h4 className='text-[rgba(255,255,255,1)] text-base font-semibold mt-2 sm:text-start sm:text-lg xl:text-lg xl:mt-2'>Save time, reduce overhead, and boost cash flow consistency.</h4>
+            <h4 className='text-[rgba(255,255,255,1)] text-sm font-semibold mt-2 sm:text-start sm:text-lg xl:text-lg xl:mt-2'>Save time, reduce overhead, and boost cash flow consistency.</h4>
             <button className=' flex flex-row h-6 w-40 mt-4 m-auto bg-[rgba(255,255,255,1)] rounded-2xl p-0 font-xs text-center justify-center items-cent text-[rgba(12,113,224,1)] 
             sm:m-0 sm:mt-2 sm:p-1 sm:h-8 md:mt-5 xl:flex xl:flex-row xl:h-9 xl:w-45 xl:mt-4  xl:p-1 xl:font-sm ' >Secure Your Spot <HiArrowLongRight className='text-base mt-1 ml-1' /></button>
           </div>

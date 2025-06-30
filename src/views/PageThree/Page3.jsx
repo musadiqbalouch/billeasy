@@ -7,7 +7,7 @@ import imagee from "../../assets/Page3image.png"
 
 const Page3 = () => {
   return (
-    <div className=' h-screen w-full flex flex-col items-center justify-center text-center bg-cover object-cover bg-no-repeat bg-center
+    <div className=' hscreen w-full flex flex-col items-center justify-center text-center bg-cover object-cover bg-no-repeat bg-center
     md:h-screen md:w-full lg:flex lg:flex-row lg:p-7    xl:w-full xl:flex xl:flex-row xl:items-center xl:justify-center xl:object-cover xl:p-0 ' style={{ backgroundImage: `url(${img})` }}>
 
       <div className='container h-65 w-80 sm:h-60 sm:w-150  z-50 p-0.5 lg:h-45 lg:w-150   xl:z-50 lg:text-start'>
