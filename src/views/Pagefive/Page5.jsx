@@ -45,10 +45,10 @@ const Page5 = () => {
   ];
   return (
     <div
-      className="  bg-no-repeat bg-cover bg-center object-cover "
-      style={{ backgroundImage: `url(${Pagebackgroundimage})` }}
+      className="  bg-no-repeat bg-cover bg-center object-cover relative  "
     >
-      <div className=" flex flex-col items-centre justify-center text-center  h-fits w-full  mt-10 xl:flex xl:flex-col items-centre sm:mt-20   xl:h-120 xl:w-300 xl:m-auto xl:mt-40 ">
+      <div style={{ backgroundImage: `url(${Pagebackgroundimage})` }} className="absolute inset-0 opacity-50 hidden md:block"></div>
+      <div className=" flex flex-col items-centre justify-center text-center z-50 h-fits w-full  mt-10 xl:flex xl:flex-col items-centre sm:mt-20   xl:h-120 xl:w-300 xl:m-auto xl:mt-40 ">
         <h2 className="text-base text-[rgba(0,0,0,1)] font-bold -mb-6 sm:text-xl lg:text-2xl xl:text-4xl/10  xl:font-bold xl:-mb-6">
           Are these challenges slowing <br /> down your{" "}
           <span className="text-[rgba(12,113,224,1)]">
@@ -56,7 +56,7 @@ const Page5 = () => {
             construction business?
           </span>
         </h2>
-        <div className="    bg-[rgba(255,255,255,1)] rounded-2xl items-center  p-4 mt-10 mx-auto wf sm:w-170 
+        <div className=" z-50   bg-[rgba(255,255,255,1)] rounded-2xl items-center  p-4 mt-10 mx-auto wf sm:w-170 
          sm:h-h-80 sm:flex sm:flex-row sm:flex-wrap sm:mt-5 lg:flex-nowrap lg:h-60 lg:mt-20  xl:flex xl:h-65 xl:w-full   justify-center text-center xl:p-4 xl:mt-10  ">
           {items?.length > 0
             ? items?.map((item, index) => (
@@ -73,8 +73,8 @@ const Page5 = () => {
             ))
             : null}
         </div>
-        <button className=" flex flex-row h-10 w-35 m-auto mt-5 items-center justify-center text-center text-[rgba(255,255,255,1)]
-         bg-[rgba(12,113,224,1)] p-3 text-sm rounded-3xl sm:mt-5 lg:mt-15 xl:h-10 xl:w-35    xl:p-3 xl:text-sm xl:mx-auto">
+        <button className=" flex flex-row h-8 w-30 mx-auto mt-3 z-50 items-center justify-center text-center text-[rgba(255,255,255,1)]
+                bg-[rgba(12,113,224,1)] p-3 text-sm rounded-3xl sm:mt-5 lg:mt-15 xl:h-10 xl:w-35    xl:p-3 xl:text-sm xl:mx-auto">
           Early Access <HiArrowLongRight />{" "}
         </button>
       </div>

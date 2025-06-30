@@ -33,14 +33,14 @@ const Page4 = () => {
             <ul className=' flex flex-col gap-3 list-disc pl-5 sm:p-0 md:mt-2 xl:flex xl:flex-col xl:gap-3 xl:list-disc xl:pl-5  '>
 
               {items.map((item, index) => (
-                <div className='flex xl:flex ' key={index}>
+                <div className='flex xl:flex  ' key={index}>
                   <div className='h-4 w-4 shrink-0 bg-[linear-gradient(to_right,rgba(12,113,224,1),rgba(7,62,112,1))] border border-white rounded-full mt-2 mr-3 xl:h-4 xl:w-4 xl:shrink-0 xl:mt-2 xl:mr-3'></div>
                   <div className='text-[rgba(255,255,255,1)] text-xs text-start sm:mt-1.5 sm:text-sm md:text-base md:mt-1  xl:text-lg'>{item} </div>
                 </div>
               ))}
             </ul>
             <h4 className='text-[rgba(255,255,255,1)] text-sm font-semibold mt-2 sm:text-start sm:text-lg xl:text-lg xl:mt-2'>Save time, reduce overhead, and boost cash flow consistency.</h4>
-            <button className=' flex flex-row h-6 w-40 mt-4 m-auto bg-[rgba(255,255,255,1)] rounded-2xl p-0 font-xs text-center justify-center items-cent text-[rgba(12,113,224,1)] 
+            <button className=' flex flex-row text-sm h-7 p-1 w-full mt-4 m-auto bg-[rgba(255,255,255,1)] rounded-2xl  font-xs text-center justify-center items-cent text-[rgba(12,113,224,1)] 
             sm:m-0 sm:mt-2 sm:p-1 sm:h-8 md:mt-5 xl:flex xl:flex-row xl:h-9 xl:w-45 xl:mt-4  xl:p-1 xl:font-sm ' >Secure Your Spot <HiArrowLongRight className='text-base mt-1 ml-1' /></button>
           </div>
           <div className=''>

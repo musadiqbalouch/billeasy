@@ -9,7 +9,7 @@ const Page3 = () => {
   return (
     <div className=' hscreen w-full flex flex-col items-center justify-center text-center bg-cover object-cover bg-no-repeat bg-center
     md:hscreen md:w-full lg:flex lg:flex-row lg:p-7  relative   xl:flex xl:flex-row xl:items-center xl:justify-center xl:object-cover xl:p-0 '>
-      <div style={{ backgroundImage: `url(${img})` }} className='opacity-50 inset-0  absolute '>
+      <div style={{ backgroundImage: `url(${img})` }} className='opacity-50 inset-0  absolute hidden md:block '>
 
       </div>
       <div className=' container h-65 w-80 sm:h-60 sm:w-150  z-50 p-0.5 lg:h-45 lg:w-150   xl:z-50 lg:text-start'>

@@ -11,7 +11,7 @@ const Page10 = () => {
   return (
     <div className=' container relative  w-full bg-no-repeat bg-center bg-cover items-center justify-center mx-auto p-5 lg:p-0 overflow-hidden'
     >
-      <div style={{ backgroundImage: `url(${img}) ` }} className='absolute opacity-50 inset-0 '></div>
+      <div style={{ backgroundImage: `url(${img}) ` }} className='absolute opacity-50 inset-0 hidden md:block '></div>
       <div className='z-50  w-full flex flex-col lg:flex-row lg:mt-8 xl:flex  xl:flex-row mt-10  lg:p-10 '>
         <div className=' xl:w-[60%]  items-center justify-center m-auto lg:h-90 lg:w190   xl:h-90 xl:w- xl:pl10  xl:ml10'>
           <h2 className='text-black text-lg font-semibold mb-9 m-auto text-center sm:text-xl md:text-2xl lg:text-2xl/10 lg:mb-6 lg:text-start xl:text-4xl/10 xl:font-semibold xl:mb-9'>Why Join the <span className='text-[rgba(12,113,224,1)]'>Beta / Get Early Access?</span> </h2>
