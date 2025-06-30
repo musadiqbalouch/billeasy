@@ -5,9 +5,9 @@ import { HiArrowLongRight } from "react-icons/hi2";
 
 const Page2 = () => {
   return (
-    <div className='h-30 w-full  sm:h-50 xl:h-60  '>
+    <div className='h-30 w-full  sm:h-50 xl:h-60   '>
       <div
-        className=' h-25 w-70  m-auto mt-15 bg-no-repeat bg-cover bg-center rounded-2xl sm:h-25 sm:w-125 md:h-30 md:w-155  lg:h-35 lg:w-220 xl:h-40 xl:w-300  xl:ml-20 xl:mt-25 xl:bg-no-repeat xl:bg-cover xl:bg-center xl:rounded-2xl'
+        className='container h-25 w-70  m-auto mt-15 bg-no-repeat bg-cover bg-center rounded-2xl sm:h-25 sm:w-125 md:h-30 md:w-155  lg:h-35 lg:w-220 xl:h-40 xl:w-300   xl:mt-25 xl:bg-no-repeat xl:bg-cover xl:bg-center xl:rounded-2xl'
         style={{
           backgroundImage: `linear-gradient(rgba(12,113,224,1), rgba(7,62,122,1)), url(${imageone})`
         }}

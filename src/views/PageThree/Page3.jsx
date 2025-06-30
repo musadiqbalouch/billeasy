@@ -7,7 +7,7 @@ import image2 from "../../assets/Page3imagetwo.png"
 const Page3 = () => {
   return (
     <div className='container h-screen w-full flex flex-col items-center justify-center text-center bg-cover object-cover bg-no-repeat bg-center
-    md:h-screen md:w-full lg:flex lg:flex-row   xl:h-screen xl:w-full xl:flex xl:flex-row xl:items-center xl:justify-center xl:object-cover  ' style={{ backgroundImage: `url(${img})` }}>
+    md:h-screen md:w-full lg:flex lg:flex-row    xl:w-full xl:flex xl:flex-row xl:items-center xl:justify-center xl:object-cover  ' style={{ backgroundImage: `url(${img})` }}>
 
       <div className='h-65 w-80 sm:h-60 sm:w-150  z-50 p-0.5 lg:h-45 lg:w-150  xl:h-50 xl:w-170 xl:-ml-50 xl:z-50 lg:text-start'>
         <h2 className='text-lg font-semibold sm:text-2xl lg:text-4xl  xl:text-4xl xl:font-semibold'>  <span className='text-blue-600'>Transforming</span> The Operations <br /> Of Construction <span className='text-blue-600'> Businesses</span></h2>
@@ -17,7 +17,7 @@ const Page3 = () => {
       </div>
       <div className=' h-60 w-50  mr-15  z-50 lg:h-45 lg:w-80 lg:m-0 lg:mb-20 xl:h-50 xl:w-100  xl:mb-30 xl:-m-17 xl:z-50 sm:h-90 sm:w-100 sm:ml-40'>
         <img className=" h-40 w-60 object-cover rounded-2xl sm:75 sm:w-70 lg:h-50 lg:w-60  xl:h-60 xl:w-80 xl:object-cover xl:rounded-2xl " src={image1} />
-        <img className='h-40 w-60 object-cover rounded-2xl relative bottom-7 left-15 border-10 border-white sm:75 sm:w-70 lg:h-50 lg:w-65 lg:relative lg:left-25 lg:bottom-10 xl:h-60 xl:w-80  xl:ml-40 xl:relative  xl:bottom-25   xl:border-10 ' src={image2} />
+        <img className='h-40 w-60 object-cover rounded-2xl relative bottom-7 left-15 border-10 border-white sm:75 sm:w-70 lg:h-50 lg:w-65 lg:relative lg:left-25 lg:bottom-10 xl:h-60 xl:w-75  xl:ml-35 xl:relative  xl:bottom-25   xl:border-10 ' src={image2} />
       </div>
       <div className=' h-20 w-40 border-2 absolute top-10 hidden rounded-2xl border-blue-600  lg:block lg:top-280 lg:left-175  lg:h-55 lg:w-60   xl:block xl:h-65 xl:w-80 xl:border-2  xl:left-200 xl:top-295 '>
 
