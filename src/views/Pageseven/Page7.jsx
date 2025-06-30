@@ -7,7 +7,7 @@ import tabletimage from "../../assets/Page7tabletimage.png"
 
 const Page7 = () => {
   return (
-    <div className='h-[80vh] w-full  pt-20 pb-20 flex flex-row m-auto '>
+    <div className=' w-full  pt-20 pb-20 flex flex-row m-auto '>
       <div className='relative sm:h:75 sm:w-150 lg:h-75 lg:w-235  m-auto  bg-no-repeat bg-cover bg-center  rounded-2xl items-center justify-center xl:h-75 xl:w-285 '
         style={{
           backgroundImage: `linear-gradient(rgba(12,113,224,1), rgba(7,62,122,1)), url(${imageone})`

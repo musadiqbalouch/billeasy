@@ -57,7 +57,7 @@ const Page5 = () => {
           </span>
         </h2>
         <div className="  h-full  bg-[rgba(255,255,255,1)] rounded-2xl items-center  p-4 mt-10 mx-auto wf sm:w-170 
-         sm:h-h-80 sm:flex sm:flex-row sm:flex-wrap sm:mt-5 lg:flex-nowrap lg:h-60 lg:mt-20  xl:flex xl:h-65  justify-center text-center xl:p-4 xl:mt-10  ">
+         sm:h-h-80 sm:flex sm:flex-row sm:flex-wrap sm:mt-5 lg:flex-nowrap lg:h-60 lg:mt-20  xl:flex xl:h-65 xl:w-full   justify-center text-center xl:p-4 xl:mt-10  ">
           {items?.length > 0
             ? items?.map((item, index) => (
               <div className="flex  flex-col items-center sm:items-center  ">

@@ -81,7 +81,7 @@ const Page6 = () => {
 
 
                                 <div key={index} className='h-27 w-70  m-auto mt-1 rounded-md p-2 border-[rgba(12,113,224,1)] border
-                                sm:h-30 sm:w-80 md:h-30 md:w-83 md:m-auto lg:h-33 lg:w-78 lg:m-auto xl:h-35 xl:w-90 xl:mt-1 xl:p-5 xl:ml-4   ' style={{
+                                sm:h-30 sm:w-80 md:h-30 md:w-83 md:m-auto lg:h-33 lg:w-78 lg:m-auto xl:h-35 xl:w-90 xl:mt-1 xl:mx-auto xl:p-5    ' style={{
                                         background: `radial-gradient(55.92% 29.44% at 82.12% 96.3%, rgba(12, 113, 224, 0.5) 0%, rgba(12, 113, 224, 0) 100%)`,
                                     }}>
                                     <div className='flex flex-row  xl:flex xl:flex-row text-start xl:text-start'>
