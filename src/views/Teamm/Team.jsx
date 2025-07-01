@@ -19,19 +19,3 @@ const Team = () => {
 }
 
 export default Team
-{
-    selectbutton === "Automated Invoice Management" ? (
-        <>
-            <h2>musadiq1</h2>
-        </>
-    ) : selectbutton === "Payment Insights" ? (
-        <>
-            <h3>musadiq</h3>
-        </>
-    ) : ""
-}
-
-import Automated from '../Automated/Automated';
-import Payment from '../Payment/Payment';
-import Integrated from '../Integrated/Integrated';
-import Team from './Team';

@@ -5,7 +5,7 @@ import imagetwo from "../../assets/laptopimageofpagefour.png"
 import Automated from '../Automated/Automated';
 import Payment from '../Payment/Payment';
 import Integrated from '../Integrated/Integrated';
-import Team from '../Teamm/Team';
+import Teamm from "../Teamm/Team"
 
 const Page4 = () => {
   const items = [
@@ -56,7 +56,7 @@ const Page4 = () => {
                 </>
               ) : selectbutton === "Team Collaboration & Role-Based Access" ? (
                 <>
-                  <Team />
+                  <Teamm />
                 </>
               ) : null}
             </ul>
