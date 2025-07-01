@@ -2,3 +2,7 @@
 
 @import "tailwindcss";
 
+.custom-border-gradient {
+  border-image: linear-gradient(180deg, #073E7A 0%, rgba(9, 87, 173, 0) 50%, #073E7A 100%);
+  border-image-slice: 1;
+}

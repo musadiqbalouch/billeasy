@@ -38,7 +38,7 @@ const Header = () => {
                         <img className="h-34 w-30 ml-8 sm:h-57 sm:w-60 object-cover md:h-47 md:w-40 lg:h-65 lg:w-120 xl:h-70 xl:w-127" src={imgtwo} />
                     </div>
                 </div>
-                <div className='flex flex-col h-65 lg:w-2/6 w-full border-1 border-blue-600 align-centre justify-center p-3 rounded-lg mt-2 gap-1 md:relative md:top-23 md:left-3 lg:mb-60 lg:p-5 lg:gap-2 lg:h-68 xl:h-80 xl:w-3/8 xl:mr-20 xl:border-2  xl:gap-3 xl:rounded-2xl backdrop-blur-20 shadow-2xl '>
+                <div className='flex flex-col h-65 lg:w-2/6 w-full border-1 border-blue-600 align-centre justify-center p-3 rounded-lg mt-2 gap-1 md:relative md:top-23 md:left-3 lg:mb-60 lg:p-5 lg:gap-2 lg:h-68 xl:h-80 xl:w-3/8 xl:mr-20 xl:border-1  xl:gap-3 xl:rounded-2xl backdrop-blur-20 shadow-2xl '>
                     <h2 className='text-2xl text-blue-600 font-semibold sm:text-3xl xl:text-4xl'>Request a Demo</h2>
                     <input className="outline-none p-1 border-b-2 border-blue-600 placeholder-[rgba(15, 15, 15, 0.3)] placeholder:text-sm sm:placeholder:text-base" type="text" placeholder='Your Name' />
                     <input className='outline-none p-1 border-b-2 border-blue-600 placeholder:text-sm sm:placeholder:text-base' type="email" placeholder='Your Email' />
