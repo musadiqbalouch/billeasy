@@ -24,12 +24,12 @@ const Page4 = () => {
         <div className='items-center justify-center text-center p-5 xl:p-10 '>
           <h2 className='text-base w-60 m-auto text-white font-semibold sm:text-lg md:w-90 md:text-2xl md:mt-15 lg:w-120 lg:text-4xl xl:w-160 xl:m-auto xl:text-5xl  font-semibold/7 '>Work. Bill. Collaborate. Done.</h2>
           <p className='text-white text-xs m-3 sm:text-sm md:text-base md:mb-5  xl:m-3 '>Bill Easy connects the dots between contracts, estimates, invoicing, and teamwork — giving you control, clarity, and confidence</p>
-          <div className='grid grid-cols-1 p-1  h-fit w-fit m-auto gap-2 bg-[#9cc3ee] opacity-80 text-center
+          <div className='grid grid-cols-1 p-1  h-fit w-fit m-auto gap-2 bg[#9cc3ee] opacity-80 text-center
           sm:grid sm:grid-cols-2 md:mb-5 rounded-2xl lg:flex lg:flex-row lg:h-10 
           lg:w-240 lg:opacity-80 lg:m-auto lg:gap-4 xl:h-10 xl:w-240 xl:opacity-80 xl:m-auto  xl:flex xl:gap-5 xl:rounded-2xl'>
 
             {items.map((item, index) => (
-              <button className={`text-xs  h-fit w-full p-2 m-auto flex flex-nowrap bgwhite rounded-2xl text-[rgba(12,113,224,1)] border-[rgba(12,113,224,1)] md:text-sm lg:text-sm lg:h-8 lg:w-fit lg:p-1.5 xl:text-sm  xl:h-8 xl:w-fit xl:p-1.5    ${selectbutton === item.label ? "bg-gradient-to-b from-[#0C71E0] to-[#073E7A] text-white " : "bg-white "}`} key={item.id} onClick={() => setselectbutton(item.label)} >
+              <button className={`text-xs  h-fit w-full p-2 m-auto flex flex-nowrap bgwhite rounded-2xl text-[rgba(12,113,224,1)] border-[rgba(12,113,224,1)] md:text-sm lg:text-sm lg:h-8 lg:w-fit lg:p-1.5 lg:px-3 xl:text-sm  xl:h-8 xl:w-fit xl:p-1.5 xl:px-3 ${selectbutton === item.label ? "bg-gradient-to-b from-[#0C71E0] to-[#073E7A] text-white " : "bg-white "}`} key={item.id} onClick={() => setselectbutton(item.label)} >
                 {item.label}
               </button>
             ))}
@@ -61,7 +61,7 @@ const Page4 = () => {
               ) : null}
             </ul>
             <h4 className='text-[rgba(255,255,255,1)] text-sm font-semibold mt-2 sm:text-start sm:text-lg xl:text-lg xl:mt-2'>Save time, reduce overhead, and boost cash flow consistency.</h4>
-            <button className=' flex flex-row text-sm h-7 p-1 w-35 mt-4 m-auto bg-[rgba(255,255,255,1)] rounded-2xl  font-xs text-center justify-center items-cent text-[rgba(12,113,224,1)] 
+            <button className=' flex flex-row text-sm h-7 p-1 px-2 w-37 mt-4 m-auto bg-[rgba(255,255,255,1)] rounded-2xl  font-xs text-center justify-center items-cent text-[rgba(12,113,224,1)] 
             sm:m-0 sm:mt-2 sm:p-1 sm:h-8 md:mt- md:p-1.5 md:w-37 xl:flex xl:flex-row xl:h-8 xl:w-45 xl:mt-4  xl:p-1 xl:font-sm ' >Secure Your Spot <HiArrowLongRight className='text-base mt-0.5 ml-1' /></button>
           </div>
           <div className=''>
