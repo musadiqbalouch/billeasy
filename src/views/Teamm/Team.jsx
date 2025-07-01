@@ -34,4 +34,4 @@ export default Team
 import Automated from '../Automated/Automated';
 import Payment from '../Payment/Payment';
 import Integrated from '../Integrated/Integrated';
-import Team from '../Team/Team';
+import Team from './Team';
