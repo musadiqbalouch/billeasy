@@ -18,8 +18,8 @@ const Page3 = () => {
         <button className='font- text-xs flex flex-row flex-nowrap h-7 w-32 mx-auto    bg-blue-600 p-4 rounded-2xl text-white
          text-center align-centre items-center mt-2 sm:h-9 sm:w-35 sm:text-base sm:p-4 sm:ml-57 lg:m-0 lg:mt-5 xl:h-10 xl:w-30    xl:p-3 xl:text-sm'>Early access <HiArrowLongRight className='text-lg ml-1 mt-0' /> </button>
       </div>
-      <div className=' h60 w50 z-50  '>
-        <img className=" h-45 w-70 object-cover  sm:70 sm:w-80 md:h-75 md:w-120 lg:h-70 lg:w-115  xl:h-80 xl:w-120 xl:object-cover xl:rounded-2xl  " src={imagee} />
+      <div className='  z-50  '>
+        <img className=" h-45 w-70 object-cover  sm:70 sm:w-80 md:h-75 md:p-10 md:w-120 lg:h-70 lg:w-115  xl:h-80 xl:w-120 xl:object-cover xl:rounded-2xl  " src={imagee} />
       </div>
 
     </div>

@@ -40,8 +40,8 @@ const Page4 = () => {
               ))}
             </ul>
             <h4 className='text-[rgba(255,255,255,1)] text-sm font-semibold mt-2 sm:text-start sm:text-lg xl:text-lg xl:mt-2'>Save time, reduce overhead, and boost cash flow consistency.</h4>
-            <button className=' flex flex-row text-sm h-7 p-1 w-full mt-4 m-auto bg-[rgba(255,255,255,1)] rounded-2xl  font-xs text-center justify-center items-cent text-[rgba(12,113,224,1)] 
-            sm:m-0 sm:mt-2 sm:p-1 sm:h-8 md:mt-5 xl:flex xl:flex-row xl:h-9 xl:w-45 xl:mt-4  xl:p-1 xl:font-sm ' >Secure Your Spot <HiArrowLongRight className='text-base mt-1 ml-1' /></button>
+            <button className=' flex flex-row text-sm h-7 p-1 w-35 mt-4 m-auto bg-[rgba(255,255,255,1)] rounded-2xl  font-xs text-center justify-center items-cent text-[rgba(12,113,224,1)] 
+            sm:m-0 sm:mt-2 sm:p-1 sm:h-8 md:mt- md:p-1.5 md:w-37 xl:flex xl:flex-row xl:h-9 xl:w-45 xl:mt-4  xl:p-1 xl:font-sm ' >Secure Your Spot <HiArrowLongRight className='text-base mt-0.5 ml-1' /></button>
           </div>
           <div className=''>
             <img className=' h-40 w-40 object-cover hidden md:block  md:h-90 md:w-110 md:relative md:bottom-20 md:left-40 lg:relative lg:bottom-10 lg:left-0  lg:h-110  lg:w-110  xl:relative xl:bottom-10 xl:right10 xl:h-105 xl:w-350 ' src={imagetwo} />
