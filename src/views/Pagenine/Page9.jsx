@@ -58,7 +58,7 @@ const page9 = () => {
           </div>
           <div className='h-8 w-8 rounded-2xl bg-[rgba(12,113,224,1)] mt-40 hidden lg:block xl:h-8 xl:w-8  xl:mt-40 '><CiCircleChevRight className='h-8 w-8 text-white' /></div>
         </div>
-        <button className='flex flex-row flex-nowrap cursor-pointer items-center justify-center text-center h-8 text-white w-35 m-auto p-1 mt-5  text-sm rounded-2xl bg-[rgba(12,113,224,1)] lg:h-10 lg:w-40 lg:p-2 lg:text-base  xl:h-9 xl:w-42 xl:p-1 xl:mt-1 xl:mx-auto'>Secure Your Spot <HiArrowLongRight className='xl:ml-1 xl:mt-0.5' /></button>
+        <button className='flex flex-row flex-nowrap cursor-pointer bg-opacity-0 items-center justify-center text-center h-8 text-white w-35 m-auto p-1 mt-5  text-sm rounded-2xl border bg[rgba(12,113,224,1)] lg:h-10 lg:w-40 lg:p-2 lg:text-base  xl:h-9 xl:w-42 xl:p-1 xl:mt-1 xl:mx-auto'>Secure Your Spot <HiArrowLongRight className='xl:ml-1 xl:mt-0.5' /></button>
       </div>
     </div>
   )
