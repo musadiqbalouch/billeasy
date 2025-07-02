@@ -29,7 +29,7 @@ const Header = () => {
                     <h2 className='text-2xl text-black font-semibold md:text-4xl md:w-140 md:mb-3 lg:m-1 lg:text-5xl xl:w-165 xl:text-5xl'>Construction <span className='text-blue-600'>Simplified.</span></h2>
                     <h3 className='text-xl font-semibold md:text-2xl md:mb-3  md:w-130 lg:m-1 lg:text-3xl xl:w-150 xl:text-3xl'><span className='text-blue-600 '>Stop Drowning</span> in Paperwork. Build <br /> More, <span className='text-blue-600'>Manage Less.</span> </h3>
                     <p className='text-xs font-medium sm:text-sm  md:text-base md:w-160 md:h-30   lg:h-15 lg:text-sm xl:h-18 xl:text-base'>Billeasy is the smart, intuitive platform built specifically for construction professionals to <br />streamline operations, boost profitability, and reclaim their time. Get early access to the <br /> Beta and transform your business.</p>
-                    <button className=" flex flex-row h-8 w-30  mt-3 items-center justify-center text-center text-[rgba(255,255,255,1)]
+                    <button className=" cursor-pointer flex flex-row h-8 w-30  mt-3 items-center justify-center text-center text-[rgba(255,255,255,1)]
          bg-[rgba(12,113,224,1)] p-3 text-sm rounded-3xl sm:mt-5 lg:mt-10 xl:h-10  xl:w-35    xl:p-3 xl:text-sm xl:mt-4 ">
                         Early Access <HiArrowLongRight />{" "}
                     </button>

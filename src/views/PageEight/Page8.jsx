@@ -63,7 +63,7 @@ const Page8 = () => {
           ))
           : null}
       </div>
-      <button className=" flex flex-row items-center justify-center text-center h-10 text-white w-40 p-2 rounded-2xl bg-[rgba(12,113,224,1)] mt-6 m-auto  xl:h-10  xl:w-42 xl:p-2 xl:text-base ">
+      <button className=" flex flex-row items-center cursor-pointer justify-center text-center h-10 text-white w-40 p-2 rounded-2xl bg-[rgba(12,113,224,1)] mt-6 m-auto  xl:h-10  xl:w-42 xl:p-2 xl:text-base ">
         Secure Your Spot <HiArrowLongRight className="xl:ml-1 xl:mt-0.5 xl:text-base" />
       </button>
     </div>

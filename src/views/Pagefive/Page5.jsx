@@ -60,7 +60,7 @@ const Page5 = () => {
          sm:h-h-80 sm:flex sm:flex-row sm:flex-wrap sm:mt-5 lg:flex-nowrap lg:h-60 lg:mt-20  xl:flex xl:h-65 xl:w-full   justify-center text-center xl:p-4 xl:mt-10  ">
           {items?.length > 0
             ? items?.map((item, index) => (
-              <div className="flex  flex-col items-center sm:items-center  ">
+              <div className="flex  flex-col items-center sm:items-center cursor-pointer ">
                 <Card
                   key={index}
                   id={item?.id}
@@ -73,7 +73,7 @@ const Page5 = () => {
             ))
             : null}
         </div>
-        <button className=" flex flex-row h-8 w-30 mx-auto mt-3 z-50 items-center justify-center text-center text-[rgba(255,255,255,1)]
+        <button className=" flex flex-row h-8 w-30 mx-auto mt-3 z-50 cursor-pointer items-center justify-center text-center text-[rgba(255,255,255,1)]
                 bg-[rgba(12,113,224,1)] p-3 text-sm rounded-3xl sm:mt-5 lg:mt-15 xl:h-10 xl:w-35    xl:p-3 xl:text-sm xl:mx-auto">
           Early Access <HiArrowLongRight />{" "}
         </button>

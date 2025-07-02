@@ -25,7 +25,7 @@ const Page10 = () => {
             ))}
           </ul>
           <img className='h-8 w-55 object-cover m-5 lg:h-10 lg:w-65 xl:h-10 xl:w-65   xl:m-5' src={logos} />
-          <button className='flex flex-row h-8 w-35 flex-nowrap mt-5 text-xs ml-5 bg-[rgba(12,113,224,1)]
+          <button className='flex flex-row h-8 w-35 flex-nowrap  mt-5 text-xs ml-5 bg-[rgba(12,113,224,1)]
            rounded-2xl p-2 font-sm text-center justify-center items-centre text-white
            md:text-sm md:p-1.5 md:h-8 md:w-40 lg:h-8 lg:w-40   xl:h-9  xl:w-42 xl:p-1 xl:mt-1 xl:mx-auto  xl:text-base  xl:ml-5  xl:font-sm items-cent  ' >Secure Your Spot <HiArrowLongRight className='text-base md:mt-1 ml-1' /></button>
         </div>
